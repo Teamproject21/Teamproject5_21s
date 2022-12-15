@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="[신혜민학우님] Add, Edit 기능 완성">
+    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="오류수정 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671125295531</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="오류수정 1">
+      <created>1671128189478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128189478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +327,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Read-list 기능 완성" />
     <MESSAGE value="[신혜민학우님] Add, Edit 기능 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="[신혜민학우님] Add, Edit 기능 완성" />
+    <MESSAGE value="오류수정 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="오류수정 1" />
   </component>
 </project>
