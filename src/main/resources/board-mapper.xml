@@ -4,11 +4,11 @@
     <insert id="insertBoard">
         insert into dorm (stdnum, stdname, dormname, roomn, outdate, why, in_out)
         values
-        (#{stdnum}, #{stdname}, #{dormname}, #{dormname}), #{roomn}, #{outdate} , #{why} , #{in_out}
-        </insert>
+        (#{stdnum}, #{stdname}, #{dormname}, #{roomn}, #{outdate} , #{why} , #{in_out})
+    </insert>
     <update id="updateBoard">
         update dorm
-        set stdnum=#{stdnum}, stdname=#{stdname}, dormname=#{dormname}, dormname=#{dormname}, roomn=#{roomn}, outdate=#{outdate}, why=#{why}, in_out=#{in_out}
+        set stdnum=#{stdnum}, stdname=#{stdname}, dormname=#{dormname},  roomn=#{roomn}, outdate=#{outdate}, why=#{why}, in_out=#{in_out}
         where num=#{num}
     </update>
     <delete id="deleteBoard">
