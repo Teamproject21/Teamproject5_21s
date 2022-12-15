@@ -3,50 +3,76 @@ package com.example.board;
 import java.util.Date;
 
 public class BoardVO {
-    private int seq;
-    //private String category;
-    private String title;
-    private String writer;
-    private String content;
-    private Date regdate;
-    private int cnt;
+    private int num;
+    private String stdnum;
+    private String stdname;
+    private String dormname;
+    private int romn;
+    private Date outdate;
+    private String why;
+    private String in_out;
 
-    public int getSeq() {
-        return seq;
-    }
-    public void setSeq(int seq) {
-        this.seq = seq;
+    public int getNum() {
+        return num;
     }
 
-    //public String getCategory() { return category;}
+    public void setNum(int num) {
+        this.num = num;
+    }
 
-    //public void setCategory(String category) { this.category = category; }
-    public String getTitle() {
-        return title;
+    public String getStdnum() {
+        return stdnum;
     }
-    public void setTitle(String title) {
-        this.title = title;
+
+    public void setStdnum(String stdnum) {
+        this.stdnum = stdnum;
     }
-    public String getWriter() {
-        return writer;
+
+    public String getStdname() {
+        return stdname;
     }
-    public void setWriter(String writer) {
-        this.writer = writer;
+
+    public void setStdname(String stdname) {
+        this.stdname = stdname;
     }
-    public String getContent() {
-        return content;
+
+    public String getDormname() {
+        return dormname;
     }
-    public void setContent(String content) {
-        this.content = content;
+
+    public void setDormname(String dormname) {
+        this.dormname = dormname;
     }
-    public Date getRegdate() {
-        return regdate;
+
+    public int getRomn() {
+        return romn;
     }
-    public void setRegdate(Date regdate) {
-        this.regdate = regdate;
+
+    public void setRomn(int romn) {
+        this.romn = romn;
     }
-    public int getCnt() { return cnt; }
-    public void setCnt(int cnt) {
-        this.cnt = cnt;
+
+    public Date getOutdate() {
+        return outdate;
+    }
+
+    public void setOutdate(Date outdate) {
+        this.outdate = outdate;
+    }
+
+    public String getWhy() {
+        return why;
+    }
+
+    public void setWhy(String why) {
+        this.why = why;
+    }
+
+    public String getIn_out() {
+        return in_out;
+    }
+
+    public void setIn_out(String in_out) {
+        this.in_out = in_out;
     }
 }
