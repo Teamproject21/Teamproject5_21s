@@ -10,7 +10,7 @@
 
 <h1>외박 신청:</h1>
 <form action="addok" method="post">
-    <table id="add">
+    <table id="edit">
         <tr><td>호관:</td><td>
             <select id="dormname" name="dormname">
                 <option value="은혜관">은혜관</option>
