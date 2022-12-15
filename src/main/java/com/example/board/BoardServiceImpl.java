@@ -17,16 +17,16 @@ public class BoardServiceImpl implements BoardService {
     }
 
     @Override
-    public int deleteBoard(int seq) {
-        return boardDAO.deleteBoard(seq);
+    public int deleteBoard(int num) {
+        return boardDAO.deleteBoard(num);
     }
 
     @Override
     public int updateBoard(BoardVO vo) {return boardDAO.updateBoard(vo);}
 
     @Override
-    public BoardVO getBoard(int seq) {
-        return boardDAO.getBoard(seq);
+    public BoardVO getBoard(int num) {
+        return boardDAO.getBoard(num);
     }
 
     @Override

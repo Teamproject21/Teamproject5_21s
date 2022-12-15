@@ -17,8 +17,8 @@ public class BoardDAO {
         return result;
     }
 
-    public BoardVO getBoard (int seq) {
-        BoardVO one = sqlSession.selectOne("Board.getBoard",seq);
+    public BoardVO getBoard (int num) {
+        BoardVO one = sqlSession.selectOne("Board.getBoard",num);
         return one;
     }
 
@@ -27,8 +27,8 @@ public class BoardDAO {
         return list;
     }
 
-    public int deleteBoard(int seq){
-        int result = sqlSession.delete("Board.deleteBoard",seq);
+    public int deleteBoard(int num){
+        int result = sqlSession.delete("Board.deleteBoard",num);
         return result;
     }
 

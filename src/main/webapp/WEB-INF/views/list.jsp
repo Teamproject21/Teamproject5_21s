@@ -59,7 +59,7 @@
             <td>${u.dormname}</td>
             <td>${u.why}</td>
             <td>${u.outdate}</td>
-            <td><a href="editform/${u.seq}">Edit</a></td>
+            <td><a href="editform/${u.num}">Edit</a></td>
             <td><a href="javascript:delete_ok('${u.num}')">Delete</td>
         </tr>
     </c:forEach>
