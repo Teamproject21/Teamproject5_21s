@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="[신혜민학우님] Add, Edit 기능 완성">
+    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="오류수정 2">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f2bf332-6eda-4d9f-920c-0e308498abbd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f2bf332-6eda-4d9f-920c-0e308498abbd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/board/BoardVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" afterDir="false" />
@@ -59,25 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/HGU/2-2/실프_Intelij/test",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "47bc43d1d42421a304d38fc1e83af40d"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HGU/2-2/실프_Intelij/test&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;47bc43d1d42421a304d38fc1e83af40d&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HGU\2-2\test\src\main\webapp\WEB-INF\img" />
@@ -199,6 +200,9 @@
       <workItem from="1671109621868" duration="1277000" />
       <workItem from="1671114187380" duration="1379000" />
       <workItem from="1671115941843" duration="3491000" />
+      <workItem from="1671128971255" duration="116000" />
+      <workItem from="1671158991039" duration="2516000" />
+      <workItem from="1671170356010" duration="2147000" />
     </task>
     <task id="LOCAL-00001" summary="commit springmybatis">
       <created>1670587249871</created>
@@ -270,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671125295531</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="오류수정 1">
+      <created>1671128189478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128189478</updated>
+    </task>
+    <task id="LOCAL-00012" summary="오류수정 2">
+      <created>1671128602132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128602132</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +340,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Read-list 기능 완성" />
     <MESSAGE value="[신혜민학우님] Add, Edit 기능 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="[신혜민학우님] Add, Edit 기능 완성" />
+    <MESSAGE value="오류수정 1" />
+    <MESSAGE value="오류수정 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="오류수정 2" />
   </component>
 </project>
