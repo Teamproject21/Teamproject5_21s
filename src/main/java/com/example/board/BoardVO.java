@@ -7,8 +7,8 @@ public class BoardVO {
     private String stdnum;
     private String stdname;
     private String dormname;
-    private String romn;
-    private Date outdate;
+    private int roomn;
+    private String outdate;
     private String why;
     private String in_out;
 
@@ -44,19 +44,17 @@ public class BoardVO {
         this.dormname = dormname;
     }
 
-    public String getRomn() {
-        return romn;
+    public int getRoomn() {
+        return roomn;
     }
 
-    public void setRomn(String romn) {
-        this.romn = romn;
+    public void setRoomn(int roomn) {
+        this.roomn = roomn;
     }
 
-    public Date getOutdate() {
-        return outdate;
-    }
+    public String getOutdate() { return outdate; }
 
-    public void setOutdate(Date outdate) {
+    public void setOutdate (String outdate) {
         this.outdate = outdate;
     }
 
